@@ -59,8 +59,19 @@ li:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	/*align-items: center;*/
 	flex-wrap: wrap;
-	
+
 }
 
+#footer__menu {
+	display: flex;
+	justify-content: space-around;
+
+	flex-wrap: wrap;
+	width: 50%;
+	list-style: none;
+	align-items: center;
+	margin-top: auto;
+	padding-top: 2%
+}
